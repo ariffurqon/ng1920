@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='myApp'>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+	<!-- bootstrap css -->
+	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	  
+	<title>wdi1920 App</title>
+
+	<!-- angular -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-resource.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular-animate.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular-route.min.js"></script>
+
+	  
+	<!-- custom script -->
+	<script src="js/app.js"></script>
+	<script type="text/javascript" src="js/controllers.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+	
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+		    <div class="col-md-6 col-md-offset-3">
+		        <!-- <h2 class="text-center">wdi1920 App</h2> -->
+		        <hr>
+				<div class="main" ng-view></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
