@@ -1,14 +1,19 @@
 [
     {
         "name":"aileen",
-        "bio":""
+        "bio":"Tart jelly beans I love cake toffee. Marzipan tart powder ice cream wafer lemon drops liquorice cake jelly-o. Tiramisu I love jelly-o bear claw dragée sweet pudding chocolate bar wafer."
     },
     {
         "name":"arif",
-        "bio":""
+        "bio":"Lollipop soufflé croissant I love. Halvah pudding tart sugar plum cheesecake. Oat cake marzipan I love jelly bonbon topping. Cookie liquorice marzipan topping muffin."
     },
     {
         "name":"jason",
-        "bio":""
+        "bio":"Jelly-o fruitcake sesame snaps. Cheesecake jelly-o cookie bonbon chocolate cake oat cake I love I love cookie. Icing pudding cookie muffin dessert bear claw."
+    },
+    {
+        "name":"rolando",
+        "bio":"Jelly-o fruitcake sesame snaps. Cheesecake jelly-o cookie bonbon chocolate cake oat cake I love I love cookie. Icing pudding cookie muffin dessert bear claw."
     }
+
 ]
