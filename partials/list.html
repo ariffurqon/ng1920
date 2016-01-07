@@ -1,5 +1,4 @@
-<div class="developerpage">
-  <div class=jumbotron>
+<div class=jumbotron>
     <h2>WDI 1920 Hall of Fame</h2>
     <br>
     <form ng-submit="searchTag()" class="form-inline">
@@ -27,18 +26,22 @@
             descending
         </label>
         <hr>
-    </div>
-    </div>
-    <div class="developerlist" ng-show="query">
-        <div ng-animate="'animate'" class="developer cf" ng-repeat="item in developers | filter: query | orderBy: developerOrder:direction">
-            <a href="#/details/{{developers.indexOf(item)}}">
-                <img ng-src="images/{{item.name}}.jpg" alt="Photo of {{item.name}}" class="img-responsive img-circle" style="margin:0 auto">
-                <div class="info">
-                    <h4>{{item.name}}</h4>
-                    <p>{{item.bio}}</p>
-                    <hr>
-                </div>
-            </a>
+        <div id='firechat-wrapper'>
+              <a href='#' onclick='login("github");'>Login</a>
         </div>
     </div>
 </div>
+
+<div class="developerlist" ng-show="query">
+    <div ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}" ng-repeat="item in developers | filter: query | orderBy: developerOrder:direction">
+        <a href="#/details/{{developers.indexOf(item)}}">
+            <img ng-src="images/{{item.name}}.jpg" alt="Photo of {{item.name}}" class="img-responsive img-circle" style="margin:0 auto">
+            <div class="info">
+                <h4>{{item.name}}</h4>
+                <p>{{item.bio}}</p>
+                <hr>
+            </div>
+        </a>
+    </div>
+</div>
+

@@ -10,6 +10,11 @@
     right: 10%;
 }
 
+#firechat-wrapper{
+	background: -moz-linear-gradient(to bottom, #FFFFFF, #0099ff);
+    background: linear-gradient(to bottom, #FFFFFF, #0099ff);
+}
+
 body, html {
     height: 100%;
 
@@ -18,3 +23,16 @@ body {
     background: -moz-linear-gradient(to bottom, #FFFFFF, #0099ff);
     background: linear-gradient(to bottom, #FFFFFF, #0099ff);
 }
+
+.animate-enter {
+	-webkit-transition: 1s linear all; /* Chrome */
+	transition: 1s linear all;
+	opacity: 0;
+}
+ 
+.animate-enter.animate-enter-active {
+	opacity: 1;
+}
+
+
+
